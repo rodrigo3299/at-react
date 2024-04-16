@@ -7,6 +7,7 @@ function App() {
   const menuItems = [
     { text: 'Home', link: '/' },
     { text: 'Serviços', link: '/Servicos' },
+    { text: 'Contato', link: '/contato' },
   
   ];
   

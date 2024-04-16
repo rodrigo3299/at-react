@@ -6,6 +6,7 @@ import Servicos from './Paginas/Servicos'
 import Home from './Paginas/Home'
 import Posts from './Paginas/Posts.jsx';
 import PostUnico from './Paginas/PostUnico';
+import Contato from './Paginas/Contato.jsx'
 import './index.css'
 
 const posts = [
@@ -32,6 +33,11 @@ const router = createBrowserRouter([{
               path: ':postName',
               element: <PostUnico />,
             },
+          
+            {
+              path: 'contato',
+              element: <Contato />,
+           },
           ],
         },
       ],
