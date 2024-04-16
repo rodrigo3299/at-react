@@ -6,7 +6,7 @@ import Servicos from './Paginas/Servicos'
 import Home from './Paginas/Home'
 import Posts from './Paginas/Posts.jsx';
 import PostUnico from './Paginas/PostUnico';
-import Contato from './Paginas/Contato.jsx'
+import Contato from './Paginas/Contato1.jsx'
 import './index.css'
 
 const posts = [

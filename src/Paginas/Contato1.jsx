@@ -1,4 +1,4 @@
-const Contato = ()=>{
+const Contato1 = ()=>{
     return(
         <div className="mainInfo">
             <h1>Contato</h1>
@@ -6,4 +6,4 @@ const Contato = ()=>{
     )
 }
 
-export default Contato
+export default Contato1
