@@ -4,16 +4,18 @@ import {Outlet} from 'react-router-dom';
 
 function App() {
   
-  const menuItems = [
+  const menuItems
+   = [
+    
     { text: 'Home', link: '/' },
-    { text: 'Serviços', link: '/Servicos' },
-    { text: 'Contato', link: '/Contato' },
+    { text: 'Sobre', link: '/Servicos' },
+    { text: 'Contato', link: '/Contato1' },
   
   ];
   
   return (
         <> 
-          <Header   title="Nosso Portfólio - Bem Vindo a nossa página !!" menuItems={menuItems} />
+          <Header    menuItems={menuItems} />
           <Outlet/>
           <Footer />
         </>

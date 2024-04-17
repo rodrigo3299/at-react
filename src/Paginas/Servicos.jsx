@@ -1,9 +1,11 @@
 import {Outlet, Link} from 'react-router-dom'
 const Servicos = ()=>{
     return(
-        <div className="inform">
-            <h1>Projetos de 2023</h1><br/>
-            <h2> Estes são alguns dos nossos projetos:</h2><br/>
+        <div className="inform1">
+            <h1>Bem vindo à</h1>
+            <h1>revolução dos</h1>
+            <h1>videos!</h1>
+            <h3>Somos uma startup com o objetivo de facilitar <br /> a produção de conteúdo em larga escala com <br /> qualidade profissional, capaz de atingir uma <br /> audiência de milhões de seguidores. </h3><br/>
             <Outlet/>
         </div>
     )

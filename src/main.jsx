@@ -24,7 +24,9 @@ const router = createBrowserRouter([{
       path: 'servicos',
       element: <Servicos/>,
       children: [
-        {index: true, element: <Link to='posts'> Veja nossos projetos</Link>},
+        
+        ,
+        
         {
           path: 'posts',
           element: <Posts posts={posts} />,
@@ -37,6 +39,9 @@ const router = createBrowserRouter([{
             {
               path: 'contato',
               element: <Contato />,
+              children: [
+                
+              ]
            },
           ],
         },
