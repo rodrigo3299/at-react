@@ -202,6 +202,9 @@ body {
   border: none; 
   cursor: pointer;
   border-radius: 40px; 
+ margin-top: -2000px;
+
+ 
 }
 
 .enviar-button2-1 {
@@ -292,6 +295,11 @@ body {
   font-family: Roboto Mono;
 }
 .card3-2 img {
+  width: 200px;
+  height: auto;
+}
+
+.card1 img{
   width: 200px;
   height: auto;
 }
