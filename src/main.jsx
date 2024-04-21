@@ -10,8 +10,7 @@ import Contato from './Paginas/Contato1.jsx'
 import './index.css'
 
 const posts = [
-  {id: 1, title: 'Site da Future Fast'},
-  {id: 2, title: 'https://rodrigo3299.github.io/ProjetoFF/'}
+  
 ];
 
 

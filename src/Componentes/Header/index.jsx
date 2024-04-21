@@ -1,9 +1,8 @@
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header({ title, menuItems }) {
- 
   return (
-    <header>
+    <header className="header-container">
       <h1>{title}</h1>
       <nav>
         <ul>

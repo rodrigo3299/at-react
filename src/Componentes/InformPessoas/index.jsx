@@ -1,10 +1,13 @@
-function InformPessoas({ name, inform, text,img, }) {
+function InformPessoas({ title, text, inform, img, items, topo, baixo }) {
   return (
       <div className="personal-info">
        
-        <h1> {text}</h1>
-        <h1> {name}</h1>
-        <h3> {inform}</h3>
+        <h1> {title}</h1>
+        <h2> {topo}</h2>
+        <h3> {text}</h3>
+        <p> {inform}</p>
+        <h3> {items}</h3>
+        <p> {baixo}</p>
         <img src={img}/>
         </div>
   );
