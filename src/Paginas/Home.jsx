@@ -1,5 +1,5 @@
 import React from 'react';
-import InformPessoas from '../Componentes/InformPessoas';
+import Site from '../Componentes/site';
 import Contato from '../Componentes/Contato';
 import { Outlet, Link } from 'react-router-dom'
 import ImgFoto from '../Componentes/imagens/at3.jpg'
@@ -17,28 +17,28 @@ function Home() {
       </div>
       <div className="card-container">
         <div className="card1">
-          <InformPessoas
+          <Site
             title="01"
             text="Youtube"
             inform="Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade."
           />
         </div>
         <div className="card2">
-          <InformPessoas
+          <Site
             title="02"
             text="Tik Tok"
             inform="Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade."
           />
         </div>
         <div className="card3">
-          <InformPessoas
+          <Site
             title="03"
             text="Facebook"
             inform="Conecte-se com sua audiência de forma autêntica e impactante através de vídeos que se destacam no feed do Facebook."
           />
         </div>
         <div className="card4">
-          <InformPessoas
+          <Site
             title="04"
             text="Instagram"
             inform="Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels."

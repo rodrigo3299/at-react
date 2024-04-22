@@ -7,9 +7,8 @@ function App() {
    = [
     
     { text: 'Home', link: '/' },
-    { text: 'Sobre', link: '/Servicos' },
+    { text: 'Sobre', link: '/Sobre' },
     { text: 'Contato', link: '/Contato1' },
-    { text: 'Contato', link: '/Home2' },
   
   ];
   

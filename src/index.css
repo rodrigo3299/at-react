@@ -68,28 +68,33 @@ nav ul li a:hover {
   margin-bottom: 10px;
 }
 #contact{
-  text-align: center;
+  justify-content: flex-end;
 }
 #contact form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: -230px;
+ justify-content: flex-end;
 }
 
 #contact form input,
 #contact form textarea{
   margin: 10px 100px;
-  width: 150%;
-  padding: 10px;
+  width: 20%;
+  padding: 20px;
+  border-radius: 60px;
+  margin-top: 0px;
 }
 #contact form button {
-  width: 50%;
+  width: 10%;
   border-radius: 60px;
-  border: none;
-  background-color:#ffffff ;
-  color: rgb(163, 0, 0);
+  background-color: #6975E8 ;
+  color: rgb(255, 255, 255);
   padding: 10px;
   cursor: pointer;
+
+  
 }
 footer {
   background-color: #ffffff;
@@ -123,6 +128,7 @@ footer {
   font-weight: 300px;
   line-height: 45px;
   text-align: left;
+  font-size: x-large;
 
 }
 
@@ -303,3 +309,19 @@ body {
   width: 200px;
   height: auto;
 }
+
+.inform3{
+  padding: 90px;
+  font-size: x-large;
+}
+
+.container {
+  display: flex;
+  margin-top: -100px;
+}
+
+.inform3 {
+  flex: 11;
+  padding-right:-50px; /* Adicione um espaçamento à direita */
+}
+

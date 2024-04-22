@@ -2,12 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {createBrowserRouter, RouterProvider,Link} from 'react-router-dom'
 import App from './App.jsx'
-import Servicos from './Paginas/Servicos'
+import Sobre from './Paginas/Sobre.jsx'
 import Home from './Paginas/Home'
 import Posts from './Paginas/Posts.jsx';
 import PostUnico from './Paginas/PostUnico';
-import Contato from './Paginas/Contato1.jsx'
+import Contato1 from './Paginas/Contato1.jsx'
 import './index.css'
+
 
 const posts = [
   
@@ -19,9 +20,10 @@ const router = createBrowserRouter([{
   element: <App />,
   children: [
     {index: true, element: <Home />},
+    {path:'contato1', element: <Contato1/>},
     {
-      path: 'servicos',
-      element: <Servicos/>,
+      path: 'sobre',
+      element: <Sobre/>,
       children: [
         
         ,
@@ -37,7 +39,7 @@ const router = createBrowserRouter([{
           
             {
               path: 'contato',
-              element: <Contato />,
+              element: <Contato1 />,
               children: [
                 
               ]
