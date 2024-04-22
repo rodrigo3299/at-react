@@ -20,14 +20,14 @@ function Home() {
           <Site
             title="01"
             text="Youtube"
-            inform="Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade."
+            inform="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo."
           />
         </div>
         <div className="card2">
           <Site
             title="02"
             text="Tik Tok"
-            inform="Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade."
+            inform="Faça sua criatividade brilhar em vídeos curtos e envolventes que vão cativar a comunidade global do TikTok."
           />
         </div>
         <div className="card3">
