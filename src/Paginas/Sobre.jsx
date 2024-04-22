@@ -12,7 +12,7 @@ const Sobre = ()=>{
         <div className="topo">
           <div className="inform1">
             <h1>Bem-vindo à </h1>
-            <h1>revolução dos vídeos!</h1> 
+            <h1>revolução dos </h1> 
             <h1>vídeos!</h1> <br />
             <h3>Somos uma startup com o objetivo de facilitar <br /> a produção de conteúdo em larga escala com  <br /> qualidade profissional, capaz de atingir uma <br /> audiência de milhões de seguidores.</h3><br />
             <button className="enviar-button" type="submit">Baixe o app</button>
